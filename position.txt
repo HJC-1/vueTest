@@ -1,0 +1,31 @@
+安装选项配置如下
+Project name vuebili
+? Project description A Vue.js project
+? Author 
+? Vue build standalone
+? Install vue-router? No
+? Use ESLint to lint your code? Yes
+? Pick an ESLint preset Standard
+? Set up unit tests No
+? Setup e2e tests with Nightwatch? No
+? Should we run `npm install` for you after the project has been created? (recommended) npm
+
+   vue-cli · Generated "vuebili".
+
+
+node提供.js文件环境 即使用命令node .js文件运行；不需要通过html引入.js文件跳转到浏览器运行
+build文件夹和config文件夹是webpack相关配置文件
+config文件夹下的index.js文件里的变量autoOpenBrowser: true,指每次打包是否自动打开浏览器
+node_modules文件是包含npm下载好的包的文件
+src开发文件夹
+static静态文件夹
+.babelrc文件-es6编译js相关内容
+.editorconfig文件-indent_size = 2代码缩进格数为2
+.eslintignore文件-检查忽略不规范文件
+.eslintrc.js文件-eslint检测代码是否规范
+.gitignore文件-不要上传不需要的文件或者其他不相关内容
+.postcssrc.js文件-css转化相关内容
+index.html文件：模板传到src下面
+package-lock.json文件：node_modules文件下的包版本号映射package.json文件下的包版本号 ^:只能改动最后一位，~：改动最后两位
+package.json文件：node管理相关的包
+README.md文件：开源项目
